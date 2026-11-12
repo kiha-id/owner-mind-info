@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kebijakan Privasi Owner Mind</title>
+  <meta name="description" content="Kebijakan privasi aplikasi internal Owner Mind.">
+  <style>
+    :root { --bg: #f7f7f5; --kartu: #ffffff; --teks: #1f2328; --redup: #59636e; --aksen: #1a7f64; --garis: #e3e3df; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #15171a; --kartu: #1d2025; --teks: #e8e8e6; --redup: #a0a7b0; --aksen: #4cc2a0; --garis: #2c3036; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--teks); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+    .kartu { background: var(--kartu); border: 1px solid var(--garis); border-radius: 12px; padding: 28px; }
+    h1 { margin: 0 0 4px; font-size: 1.7rem; }
+    .sub { margin: 0 0 24px; color: var(--redup); }
+    h2 { font-size: 1.1rem; margin: 28px 0 8px; }
+    ul { padding-left: 20px; }
+    a { color: var(--aksen); }
+    .en { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--garis); color: var(--redup); font-size: 0.92rem; }
+  </style>
+</head>
+<body>
+<main>
+  <div class="kartu">
+    <h1>Kebijakan Privasi Owner Mind</h1>
+    <p class="sub">Berlaku sejak 12 November 2026</p>
+
+    <p>Owner Mind adalah aplikasi internal untuk mencatat keputusan, aturan, dan ide bisnis owner.
+      Aplikasi ini hanya dipakai oleh owner dan tim IT, dan tidak tersedia untuk umum.</p>
+
+    <h2>Data yang diakses dari Google</h2>
+    <ul>
+      <li>Owner Mind memakai izin Google Drive yang paling terbatas (<code>drive.file</code>). Dengan izin ini,
+        Owner Mind hanya dapat membuat dan mengelola file serta folder yang dibuatnya sendiri.</li>
+      <li>Owner Mind <strong>tidak</strong> dapat melihat, membaca, atau mengubah file lain di Google Drive
+        pemilik akun.</li>
+      <li>Owner Mind tidak mengakses email, kontak, kalender, atau data Google lain.</li>
+    </ul>
+
+    <h2>Cara data digunakan dan disimpan</h2>
+    <ul>
+      <li>File yang dilampirkan owner sebagai dasar sebuah keputusan diunggah ke folder
+        <em>Owner Mind – Lampiran</em> di Google Drive milik akun owner.</li>
+      <li>Owner Mind menyimpan nama file dan tautan Google Drive-nya di catatan keputusan internal perusahaan,
+        supaya file itu bisa ditemukan kembali.</li>
+      <li>Salinan sementara di server Owner Mind dihapus setelah file berhasil diunggah ke Google Drive.</li>
+    </ul>
+
+    <h2>Berbagi data</h2>
+    <ul>
+      <li>Data tidak dijual dan tidak dibagikan kepada pihak ketiga.</li>
+      <li>Data tidak dipakai untuk iklan atau untuk melatih model AI.</li>
+      <li>Penggunaan dan pemindahan informasi yang diterima dari Google API mengikuti
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+        termasuk persyaratan <em>Limited Use</em>.</li>
+    </ul>
+
+    <h2>Mencabut akses dan menghapus data</h2>
+    <ul>
+      <li>Pemilik akun dapat mencabut akses Owner Mind kapan saja melalui
+        <a href="https://myaccount.google.com/permissions">pengaturan akses pihak ketiga di Akun Google</a>.</li>
+      <li>File di folder <em>Owner Mind – Lampiran</em> dapat dihapus langsung oleh pemilik akun dari Google Drive.</li>
+    </ul>
+
+    <h2>Kontak</h2>
+    <p>Pertanyaan tentang kebijakan ini: <a href="mailto:luckyformalities@gmail.com">luckyformalities@gmail.com</a></p>
+
+    <div class="en" lang="en">
+      <strong>Summary (English).</strong> Owner Mind is an internal tool used only by the owner and the IT team.
+      It uses the Google Drive <code>drive.file</code> scope, so it can access only the files and folders it creates.
+      Files the owner attaches to a decision are stored in the owner's own Google Drive (folder
+      "Owner Mind – Lampiran"). Data is never sold, shared with third parties, used for advertising, or used to
+      train AI models. Use of information received from Google APIs adheres to the Google API Services User Data
+      Policy, including the Limited Use requirements. Access can be revoked at any time at
+      myaccount.google.com/permissions. Contact: luckyformalities@gmail.com.
+    </div>
+
+    <p><a href="index.html">← Kembali ke halaman Owner Mind</a></p>
+  </div>
+</main>
+</body>
+</html>
